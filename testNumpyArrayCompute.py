@@ -58,3 +58,7 @@ print('q=\n',q)
 print('r=\n',r)
 print('s=\n',s)
 print('t=\n',t)
+
+print('sum(a)=\n',sum(a))  # >>> [ 5  7  9 11 13]
+print('sum(sum(a))=\n',sum(sum(a)))  # >>> 45
+print('a.sum()=\n',a.sum()) # >>> 45
